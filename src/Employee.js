@@ -131,7 +131,7 @@ export default function Employee() {
   return (
     <>
       {/* Employee */}
-      <div className="container-xl mt-5 border border-info">
+      <div className="container-xxl mt-5 border border-info">
         <div className="col-12 mb-3">
           <div className="row">
             <div className="col-3 mt-2">
@@ -273,7 +273,7 @@ export default function Employee() {
       </div>
 
       {/* Get List */}
-      <div className="container-xl mt-5 border border-info">
+      <div className=" mt-5 border border-info">
         <table className="table">
           <thead>
             <tr>
@@ -285,6 +285,11 @@ export default function Employee() {
               <th scope="col">Department</th>
               <th scope="col">Designation</th>
               <th scope="col">Basic Salary</th>
+              <th scope="col">DearnessAllowance</th>
+              <th scope="col">ConveyanceAllowance</th>
+              <th scope="col">HouseRentAllowance</th>
+              <th scope="col">PT</th>
+              <th scope="col">TotalSalary</th>
               <th scope="col">Action</th>
             </tr>
           </thead>
@@ -303,6 +308,11 @@ export default function Employee() {
                       <td>{key.department}</td>
                       <td>{key.designation}</td>
                       <td>{key.basicSalary}</td>
+                      <td>{key.dearnessAllowance}</td>
+                      <td>{key.conveyanceAllowance}</td>
+                      <td>{key.houseRentAllowance}</td>
+                      <td>{key.pt}</td>
+                      <td>{key.totalSalary}</td>
                       <td>
                         <div className="row">
                           <div className="col-1 mt-2">
