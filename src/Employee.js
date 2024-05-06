@@ -273,7 +273,10 @@ export default function Employee() {
       </div>
 
       {/* Get List */}
-      <div className=" mt-5 border border-info">
+      <div
+        className="container-xl mt-5 border border-info"
+        style={{ maxWidth: "96%" }}
+      >
         <table className="table">
           <thead>
             <tr>
